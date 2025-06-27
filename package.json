@@ -1,0 +1,25 @@
+{
+  "name": "loomi-backend",
+  "version": "1.0.0",
+  "description": "This is the loomi project backend",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DekelUsach/Loomi-Backend.git"
+  },
+  "keywords": [
+    "loomi"
+  ],
+  "author": "Usach, Azubel, Aguilera, Tauscher",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DekelUsach/Loomi-Backend/issues"
+  },
+  "homepage": "https://github.com/DekelUsach/Loomi-Backend#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
