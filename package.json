@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "This is the loomi project backend",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -20,6 +22,12 @@
   },
   "homepage": "https://github.com/DekelUsach/Loomi-Backend#readme",
   "dependencies": {
-    "express": "^5.1.0"
+    "@supabase/supabase-js": "^2.50.2",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^16.6.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.2",
+    "postgres": "^3.4.7"
   }
 }
